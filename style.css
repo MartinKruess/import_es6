@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2rem;
+}
+
+form{
+    background-color: #cccccc33;
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem auto;
+    padding: 1rem;
+    border: solid 0.1rem #29332999;
+    border-radius: 1rem;
+}
+
+.loginHeader{
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.8rem 0;
+}
+
+label{
+    font-size: 1.4rem;
+    padding: 0.3rem 1rem;
+}
+
+input{
+    padding: 0.3rem 1rem;
+    margin: 0.3rem 0;
+    border: solid 0.1rem #232527;
+    border-radius: 0.3rem;
+}
